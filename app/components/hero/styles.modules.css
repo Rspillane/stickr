@@ -1,6 +1,20 @@
-.background-image {
-    height: 100px;
-    width: 100px;
-    background-image: url('https://th.bing.com/th/id/OIG.h1IFuyT4xhXZMrutg9mJ?pid=ImgGn');
-    background-size: cover;
+.hero {
+    display: flex;
+    height: 600px;
+    align-items: center;
+    border: dotted 2px;
+    background-color: #e9dfd5;
+
+    flex-direction:row-reverse;
+
+    background-image: url('https://th.bing.com/th/id/OIG.TBN01J1goNTkmP4XrgMe?pid=ImgGn');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
 }

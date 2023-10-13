@@ -9,8 +9,10 @@ export default function Hero () {
     return (
         <main>
             <div className='hero'>
-                <h1> stickr </h1>
-                <p> Your One-Stop Shop for High-Quality Stickers: Explore Our Selection Today!</p>
+                <div className='content'>
+                    <h1> stickr </h1>
+                    <p> Your One-Stop Shop for High-Quality Stickers: Explore Our Selection Today!</p>
+                </div>
                 <div className='background-image'></div>
             </div>
         </main>

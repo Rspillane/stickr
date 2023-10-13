@@ -1,4 +1,4 @@
-import styles from './page.module.css'
+// import styles from './page.module.css'
 import React from 'react';
 
 //components
@@ -7,7 +7,7 @@ import Shopcarousel from './components/shopcarousel/shopcarousel';
 
 export default function index() {
   return (
-    <main className={styles.main}>
+    <main className>
       <Hero />
       <div className='info'>info section</div>
       <Shopcarousel />
