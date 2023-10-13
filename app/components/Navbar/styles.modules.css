@@ -1,6 +1,13 @@
 .navbar {
     padding-top: 20px;
     display: flex;
+}
+
+.links {
+    flex-grow: 5;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -11,4 +18,17 @@
 .link:hover {
     cursor: pointer;
     color: red
+}
+
+
+.basket-button {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    background-color: aqua;
+}
+.basket-button:hover {
+    color: red;
+    cursor: pointer;
+    
 }

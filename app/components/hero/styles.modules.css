@@ -1,0 +1,5 @@
+.background-image {
+    height: 100px;
+    width: 100px;
+    background-image: url('/app/components/assets/images/porsche.jpeg');
+}
