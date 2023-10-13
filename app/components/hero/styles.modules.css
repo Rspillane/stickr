@@ -1,5 +1,6 @@
 .background-image {
     height: 100px;
     width: 100px;
-    background-image: url('/app/components/assets/images/porsche.jpeg');
+    background-image: url('https://th.bing.com/th/id/OIG.h1IFuyT4xhXZMrutg9mJ?pid=ImgGn');
+    background-size: cover;
 }

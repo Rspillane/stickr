@@ -5,7 +5,7 @@ export default function Item() {
   return (
     <main>
         <div className='item-card'>
-            <p>image placeholder</p>
+            <div className='item-image'></div>
             <h3 className='item-name'>item name</h3>
             <p className='item-price'> price </p>
         </div>

@@ -11,3 +11,10 @@
     align-items: center;
     justify-content: center;
 }
+
+.item-image {
+    background-image: url('https://th.bing.com/th/id/OIG.h1IFuyT4xhXZMrutg9mJ?pid=ImgGn');
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+}
