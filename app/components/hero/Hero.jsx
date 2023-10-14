@@ -2,8 +2,8 @@
 
 import React from 'react'
 import Image from 'next/image'
-import backgroundImage  from '../assets/images/porsche.jpeg'
 import styles from "./styles.modules.css"
+import HeroImage from "../assets/images/porsche.png"
 
 export default function Hero () {
     return (
@@ -13,7 +13,12 @@ export default function Hero () {
                     <h1> stickr </h1>
                     <p> Your One-Stop Shop for High-Quality Stickers: Explore Our Selection Today!</p>
                 </div>
-                <div className='background-image'></div>
+                <Image 
+                    src={ HeroImage }
+                    height={300}
+                    width={300}
+                    alt='Car Sticker'
+                />
             </div>
         </main>
     )

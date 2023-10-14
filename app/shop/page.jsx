@@ -8,7 +8,8 @@ import { itemList } from '../components/assets/itemList'
 
 const listItems = itemList.map((prop) =>
     <Item
-        key={prop.key}
+        image={prop.image}
+        id={prop.id}
         title={prop.title}
         price={prop.price}
     />
