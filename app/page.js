@@ -13,7 +13,10 @@ export default function index() {
       <Info />
       <Shopcarousel />
 
-      <div className='cta'>CTA section</div>
+      <section className='cta'>CTA section</section>
+      <footer>
+
+      </footer>
     </main>
     
   )
