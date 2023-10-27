@@ -18,9 +18,9 @@ const listItems = itemList.map((prop) =>
 export default function Shopcarousel() {
   return (
     <main>
-        <div className='carousel'>
+        <section className='carousel'>
           { listItems }
-        </div>
+        </section>
     </main>
   )
 }
