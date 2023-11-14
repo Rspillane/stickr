@@ -1,4 +1,5 @@
-import '../globals.css'
+// import '../globals.css'
+import styles from "./styles.modules.css"
 
 //components
 import Item from '../components/item/Item'

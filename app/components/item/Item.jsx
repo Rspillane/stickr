@@ -12,9 +12,10 @@ export default function Item({ image, id, title, price, descr }) {
                 width={ 100 }
                 alt={ descr }
             /> 
-            <p className='id'>{ id }</p>
-            <h3 className='item-name'>{ title }</h3>
-            <p className='item-price'>£ { price }</p>
+            <div className='item-info'>
+              <p className='item-name'>{ title }</p>
+              <p className='item-price'>£ { price }</p>
+            </div>
         </div>
     </main>
   )

@@ -1,5 +1,6 @@
 import styles from "./styles.modules.css"
 import Link from 'next/link'
+import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
 
 export default function ShopItem () {
     return (
@@ -9,7 +10,11 @@ export default function ShopItem () {
                     <Link href="/" className="link">Home</Link>
                     <Link href="/shop" className="link">Shop</Link>
                 </div>
-                <p className="basket-button" /*onClick={openBasket()}*/> Basket </p>
+                <div>
+                    <ShoppingBagOutlinedIcon/>
+                    <p className="basket-button" /*onClick={openBasket()}*/> Basket </p>
+                </div>
+                
             </nav>
         </main>
     )
