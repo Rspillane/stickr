@@ -12,7 +12,7 @@ export default function ShopItem () {
                 </div>
                 <div className="nav-basket">
                     <ShoppingBagOutlinedIcon/>
-                    <p className="basket-button" /*onClick={openBasket()}*/> Basket </p>
+                    <Link href="#" className="basket-button link" /*onClick={openBasket()}*/> Basket </Link>
                 </div>
             </nav>
         </main>
