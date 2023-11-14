@@ -8,8 +8,8 @@ export default function Item({ image, id, title, price, descr }) {
         <div className='item-card' onClick={console.log("item has been clicked")}>
             <Image
                 src={ image }
-                height={ 100 }
-                width={ 100 }
+                height={ 200 }
+                width={ 200 }
                 alt={ descr }
             /> 
             <div className='item-info'>

@@ -10,11 +10,10 @@ export default function ShopItem () {
                     <Link href="/" className="link">Home</Link>
                     <Link href="/shop" className="link">Shop</Link>
                 </div>
-                <div>
+                <div className="nav-basket">
                     <ShoppingBagOutlinedIcon/>
                     <p className="basket-button" /*onClick={openBasket()}*/> Basket </p>
                 </div>
-                
             </nav>
         </main>
     )

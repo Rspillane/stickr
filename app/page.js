@@ -1,4 +1,4 @@
-// import styles from './page.module.css'
+import styles from './page.module.css'
 import React from 'react';
 
 //components
@@ -8,7 +8,7 @@ import Info from "./components/info/Info"
 
 export default function index() {
   return (
-    <main className>
+    <main className="main">
       <Hero />
       <Info />
       <Shopcarousel />

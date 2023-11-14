@@ -2,6 +2,10 @@
     padding-top: 20px;
     display: flex;
 }
+.nav-basket{
+    display: flex;
+    align-items: center;
+}
 
 .links {
     flex-grow: 5;
