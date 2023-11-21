@@ -23,6 +23,13 @@
 
 .link {
     padding-inline: 10px;
+    font-size: large;
+}
+
+.link:hover{
+    transition: 0.5s;
+    font-weight: bolder;
+    scale: 1.02;
 }
 
 a {
