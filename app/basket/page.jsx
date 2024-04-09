@@ -18,6 +18,7 @@ export default function Basket () {
             <div className="basket-block">
                 <h3>
                     this is where the items in the basket will go
+                    {/* i guess in the form of an object? with state */}
                 </h3>
             </div>
         </main>
