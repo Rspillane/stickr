@@ -1,3 +1,4 @@
+'use client'
 // import '../globals.css'
 import styles from "./styles.modules.css"
 
@@ -17,7 +18,7 @@ const listItems = itemList.map((prop) =>
             title={prop.title}
             price={prop.price}
         />
-    // </Link>
+    // {/* </Link> */}
 );
 
 

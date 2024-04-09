@@ -1,6 +1,6 @@
 .hero {
     display: flex;
-    height: 600px;
+    height: 400px;
     align-items: center;
     /* background-image: url('https://images.pexels.com/photos/1420702/pexels-photo-1420702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); */
     background-size: cover;
@@ -39,4 +39,9 @@
     cursor: default;
     z-index: 1;
     font-size: 20px;
+}
+
+#wave {
+    margin-top: -150px;
+    transform: translateY(50px) scaleY(0.7);
 }
