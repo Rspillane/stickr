@@ -16,12 +16,14 @@ export default function Hero () {
                 </div>
                 <div className='hero-images'>
                     <Image 
+                        className='hero-image'
                         src={ HeroImage }
                         height={300}
                         width={300}
                         alt='Car Sticker'
                     />
                     <Image
+                        className='hero-image'
                         src={ HeroImage1 }
                         height={300}
                         width={300}

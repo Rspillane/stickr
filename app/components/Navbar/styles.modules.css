@@ -1,5 +1,5 @@
 .navbar {
-    padding-top: 20px;
+    padding: 10px 0;
     display: flex;
 }
 .nav-basket{
@@ -19,14 +19,13 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
-    column-gap: 30px;
 }
 
 .link {
     -webkit-transition: 0.5s;
     padding-inline: 10px;
     font-size: large;
+    padding: 0 30px;
 }
 
 .link:hover{
@@ -41,7 +40,7 @@ a {
     text-decoration: none;
   }
 
-a::before {
+/* a::before {
     background: hsl(45 100% 70%);
     content: "";
     inset: 0;
@@ -55,7 +54,7 @@ a::before {
 a:hover::before {
     transform: scaleX(1);
     transform-origin: left;
-}
+} */
 
 .basket-button {
     display: flex;
