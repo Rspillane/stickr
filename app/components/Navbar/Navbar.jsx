@@ -2,6 +2,7 @@ import styles from "./styles.modules.css"
 import Link from 'next/link'
 import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
 
+
 export default function ShopItem () {
     return (
         <main>
@@ -9,10 +10,12 @@ export default function ShopItem () {
                 <div className="links">
                     <Link href="/" className="link">Home</Link>
                     <Link href="/shop" className="link">Shop</Link>
+                    <Link href="/" className="link">Contact</Link>
                 </div>
                 <div className="nav-basket">
-                    <ShoppingBagOutlinedIcon/>
-                    <Link href="#" className="basket-button link" /*onClick={openBasket()}*/> Basket </Link>
+                    <Link href="/basket" className="basket-button link"> 
+                        <ShoppingBagOutlinedIcon/>
+                    Basket </Link>
                 </div>
             </nav>
         </main>

@@ -3,15 +3,43 @@
     height: 600px;
     align-items: center;
     border: dotted 2px;
-
-    background-image: url('https://images.pexels.com/photos/1420702/pexels-photo-1420702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    /* background-image: url('https://images.pexels.com/photos/1420702/pexels-photo-1420702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); */
     background-size: cover;
 
 }
-
+.hero-images{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: -2;
+}
 
 .content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
+}
+
+h1 {
+    color: #000;
+    position: relative;
+    text-decoration: none;
+    width: auto;
+}
+
+h1::before {
+    background: hsl(45 100% 70%);
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+}
+
+h1:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
 }

@@ -11,21 +11,23 @@ export default function Hero () {
         <main>
             <div className='hero'>
                 <div className='content'>
-                    <h1> stickr </h1>
+                    <h1 className='hero-title'> stickr </h1>
                     <p> Your One-Stop Shop for High-Quality Stickers: Explore Our Selection Today!</p>
                 </div>
-                <Image 
-                    src={ HeroImage }
-                    height={300}
-                    width={300}
-                    alt='Car Sticker'
-                />
-                <Image
-                    src={ HeroImage1 }
-                    height={300}
-                    width={300}
-                    alt='Car Sticker'
-                />
+                <div className='hero-images'>
+                    <Image 
+                        src={ HeroImage }
+                        height={300}
+                        width={300}
+                        alt='Car Sticker'
+                    />
+                    <Image
+                        src={ HeroImage1 }
+                        height={300}
+                        width={300}
+                        alt='Car Sticker'
+                    />
+                </div>
             </div>
         </main>
     )

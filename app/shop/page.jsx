@@ -5,15 +5,19 @@ import styles from "./styles.modules.css"
 import Item from '../components/item/Item'
 import { itemList } from '../components/assets/itemList'
 
+import Link from 'next/link'
+
 
 
 const listItems = itemList.map((prop) =>
-    <Item
-        image={prop.image}
-        id={prop.id}
-        title={prop.title}
-        price={prop.price}
-    />
+    // <Link href="/shop/shopitem" className="">
+        <Item
+            image={prop.image}
+            id={prop.id}
+            title={prop.title}
+            price={prop.price}
+        />
+    // </Link>
 );
 
 
