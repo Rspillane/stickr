@@ -19,7 +19,7 @@ export default function Item({ image, id, title, price, descr }) {
             <div className='item-info'>
               <p className='item-name'>{ title }</p>
               <p className='item-price'>£ { price }</p>
-              <button className='item-button' onClick={() => addToCart({ id })}>Add to Basket</button>
+              {/* <button className='item-button' onClick={() => addToCart({ id })}>Add to Basket</button> */}
             </div>
         </div>
       </Link>

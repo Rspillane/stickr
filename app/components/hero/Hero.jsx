@@ -5,6 +5,8 @@ import Image from 'next/image'
 import styles from "./styles.modules.css"
 import HeroImage from "../assets/images/RangeRover.png"
 import HeroImage1 from "../assets/images/RR1.png"
+import HeroImage2 from "../assets/images/Design.png"
+
 
 export default function Hero () {
     return (
@@ -17,6 +19,15 @@ export default function Hero () {
                 <div className='hero-images'>
                     <Image 
                         className='hero-image'
+                        id='h-image-1'
+                        src={ HeroImage2 }
+                        height={300}
+                        width={300}
+                        alt='Car Sticker'
+                    />
+                    <Image
+                        className='hero-image'
+                        id='h-image-2'
                         src={ HeroImage }
                         height={300}
                         width={300}
@@ -24,6 +35,7 @@ export default function Hero () {
                     />
                     <Image
                         className='hero-image'
+                        id='h-image-3'
                         src={ HeroImage1 }
                         height={300}
                         width={300}

@@ -11,11 +11,12 @@ export default function CTA () {
             <div className='cta'>
                 <h1>Join Our Mailing List</h1>
                 <p>Hear about our new products or if you have any ideas of your own, let us know!</p>
-                <div className='signup-form'>
+                <form className='signup-form'>
                     {/* <TextField id="standard-basic" label="email" variant="standard" /> */}
-                    <input type='text'></input>
-                    <button>Sign up!</button>
-                </div>
+                    <input type="text" className="form__input" id="email" placeholder="Enter email" required="" />
+                    {/* <label for="email" class="form__label">Enter email</label> */}
+                    <button className='submit-button'>Sign up!</button>
+                </form>
             </div>
         </main>
     )

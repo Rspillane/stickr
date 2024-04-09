@@ -28,7 +28,21 @@
 }
 
 .hero-image{
+    position: absolute;
     scale: 0.8;
+    bottom: 50px;
+}
+
+#h-image-1{
+    transform: translateX(-150px);
+    z-index: 2;
+    scale: 1;
+}
+
+#h-image-3{
+    transform: translateX(150px);
+    z-index: -1;
+    
 }
 
 .content {

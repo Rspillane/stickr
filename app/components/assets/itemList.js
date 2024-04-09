@@ -1,10 +1,10 @@
 export const itemList = [
     {
         id: 1,
-        title: 'porshe sticker',
+        title: 'Porshe Sticker',
         price: 4.00,
         descr: "a sticker of a porsche... duh",
-        image: 'https://th.bing.com/th/id/OIG.TBN01J1goNTkmP4XrgMe?pid=ImgGn&w=1024&h=1024&rs=1'
+        image: "/porsche.png"
     },
     {
         id: 2,

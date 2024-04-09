@@ -4,6 +4,7 @@
     align-items: center;
     
     width: 100%;
+    padding-top: 50px;
 
     background-color: cadetblue;
 
@@ -14,6 +15,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-inline: 150px;
 
     width: 400x;
 }
