@@ -8,17 +8,19 @@ import { itemList } from '../components/assets/itemList'
 
 import Link from 'next/link'
 
+import { useState } from "react"
+
 
 
 const listItems = itemList.map((prop) =>
-    // <Link href="/shop/shopitem" className="">
+    <Link href={`/shop/${prop.id}`} className="">
         <Item
             image={prop.image}
             id={prop.id}
             title={prop.title}
             price={prop.price}
         />
-    // {/* </Link> */}
+    // </Link>
 );
 
 

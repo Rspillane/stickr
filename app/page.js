@@ -29,7 +29,7 @@ export default function index() {
       <Shopcarousel />
       <CTA/>
       <footer>
-        <div>Hello World</div>
+        <div>Footer</div>
       </footer>
     </main>
   )
