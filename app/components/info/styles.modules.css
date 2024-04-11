@@ -9,6 +9,8 @@
     background-color: cadetblue;
 
     color: white;
+
+    overflow-x: hidden;
 }
 
 .info-content {

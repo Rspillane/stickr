@@ -2,14 +2,23 @@
 import styles from "./styles.modules.css"
 import Image from 'next/image'
 import Link from 'next/link'
+import { useState } from "react";
 
 
 export default function Item({ image, id, title, price, descr }) {
   
+  const [selectedProduct, setSelectedProduct] = useState(null);
+
+  // Function to handle product selection
+  const handleProductSelect = (e) => {
+    const id = e.target.id;
+    console.log(`my id is ${id}`);
+  };
+
   return (
     <main>
-      <Link href="/shop/shopitem" className='item-link'>
-        <div className='item-card'>
+      <Link href="" className='item-link'>
+        <div key={ id } className='item-card' onClick={handleProductSelect}>
             <Image
                 src={ image }
                 height={ 200 }

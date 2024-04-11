@@ -10,6 +10,16 @@
 
 }
 
+@media only screen and (max-width: 767px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-images{
+        scale: 0.70;
+    }
+}
+
 .hero-title{
     width: 100px;
     color: #000;
@@ -57,5 +67,5 @@
 
 #wave {
     margin-top: -150px;
-    transform: translateY(50px) scaleY(0.7);
+    transform: translateY(70px) scaleY(0.7);
 }

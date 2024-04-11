@@ -23,6 +23,15 @@ const listItems = itemList.map((prop) =>
 
 
 export default function Shop () {
+    const [selectedProduct, setSelectedProduct] = useState(null);
+
+    // Function to handle product selection
+    const handleProductSelect = (productId) => {
+      // Find the selected product from the product data
+      const selected = productData.find((product) => product.id === productId);
+      setSelectedProduct(selected); // Update the selected product state
+    };
+
     return (
         <main className='main'>
             <h2>Shop</h2>
